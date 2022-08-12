@@ -21,7 +21,7 @@ const Register = () => {
     };
 
     /*
-    * id がわからない。
+    * id がわからない
     */
     const onDeleteClick = (id) => {
         console.log('id: ' + id);
