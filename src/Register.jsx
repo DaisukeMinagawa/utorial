@@ -20,8 +20,8 @@ const Register = () => {
         setFilter(num);
     };
 
-    /*この削除機能でTodoを削除できるのですが、削除した後に新たなTodoを登録すると以前に入力した
-    * Todoが入力されてしまいます。どこの配列かオブジェクトに以前の入力内容がそれが残っているのかがわか* りません。
+    /*
+    * id がわからない
     */
     const onDeleteClick = (id) => {
         console.log('id: ' + id);
